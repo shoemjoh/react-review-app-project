@@ -3,7 +3,7 @@ import React from 'react'
 const Home = () => {
     return (
         <div>
-            Placeholder text
+            Placeholder text 2
         </div>
     )
 }

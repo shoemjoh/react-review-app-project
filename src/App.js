@@ -1,18 +1,22 @@
 import './App.css';
 import Home from './pages/Home';
 import NavBar from './components/NavBar';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 
 
 // Store any needed parent state and the routing options.
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <header>
-        Home Header
-      </header>
-    </div>
+    <Router>
+      <div>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
