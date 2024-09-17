@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-const ReviewForm = () => {
+const ReviewForm = (addReview) => {
     const [formData, setFormData] = useState(
         {
             destination: '',
@@ -11,7 +11,9 @@ const ReviewForm = () => {
         }
     )
 
-    function handleChange(event) {
+    // Update state to reflect form fields being filled out.
+
+    function handleChange(e) {
         setFormData(
             {
                 ...formData,
@@ -20,6 +22,20 @@ const ReviewForm = () => {
         )
     }
 
+    function handleSubmit(e) {
+        e.preventDefault();
+        const configObj = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(formData)
+        };
+        fetch('http://localhost:3000/reviews', configObj)
+            .then((res) => res.json())
+            .then((data) => {
+                addReview(data);
+                setFormData({ destination: '', name: '', category: 'Hotel', review: '' }); // Clear form
+            });
+    }
 
 
 
