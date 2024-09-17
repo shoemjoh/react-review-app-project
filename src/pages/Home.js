@@ -1,11 +1,20 @@
-import React from 'react'
+import ReviewForm from '../components/ReviewForm';
+import { useState } from 'react';
 
-const Home = () => {
+function Home() {
+    const [reviews, setReviews] = useState([]);
+
+    function addReview(newReview) {
+        setReviews([...reviews, newReview]);
+    }
+
     return (
         <div>
-            Placeholder text 2
+            <h2>Submit a Review</h2>
+            <ReviewForm addReview={addReview} />
         </div>
-    )
+    );
 }
 
-export default Home
+export default Home;
+

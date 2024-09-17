@@ -17,7 +17,7 @@ const ReviewForm = (addReview) => {
         setFormData(
             {
                 ...formData,
-                [event.target.name]: event.target.value
+                [e.target.name]: e.target.value
             }
         )
     }
