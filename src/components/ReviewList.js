@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import ReviewCard from './ReviewCard';
 
+// ReviewList is a component that is rendered for both specific hotel reviews and restaurant reviews at a specific destination.
+
 function ReviewList({ category, destination }) {
     const [reviews, setReviews] = useState([]);
 
@@ -15,6 +17,7 @@ function ReviewList({ category, destination }) {
             });
     }, [category, destination]);
 
+    // Use map to loop through the reviews array, creating a Review Card if there are reviews present and returning a "no reviews available statement if not".
     return (
         <div>
             {reviews.length > 0 ? (

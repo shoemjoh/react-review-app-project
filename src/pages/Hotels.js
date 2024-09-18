@@ -3,7 +3,7 @@ import React from 'react'
 const Hotels = () => {
     return (
         <div>
-            Placeholder Hotel text
+            <ReviewList category={"hotels"} />
         </div>
     )
 }
