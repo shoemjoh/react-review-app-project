@@ -8,7 +8,7 @@ const Destinations = () => {
 
     return (
         <div>
-
+            Placeholder text
         </div>
     )
 }

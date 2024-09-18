@@ -29,7 +29,7 @@ const ReviewForm = (addReview) => {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(formData)
         };
-        fetch('http://localhost:3000/reviews', configObj)
+        fetch('http://localhost:4000/reviews', configObj)
             .then((res) => res.json())
             .then((data) => {
                 addReview(data);
