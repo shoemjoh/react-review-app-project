@@ -1,4 +1,5 @@
 import React from 'react'
+import ReviewList from '../components/ReviewList'
 
 const Hotels = () => {
     return (
