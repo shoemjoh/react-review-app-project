@@ -4,7 +4,6 @@ import { useParams } from 'react-router-dom'
 
 const Destinations = () => {
 
-    const { destination } = useParams();
 
     return (
         <div>
