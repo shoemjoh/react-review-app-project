@@ -17,7 +17,6 @@ function ReviewList({ category, destination }) {
             });
     }, [category, destination]);
 
-    // Use map to loop through the reviews array, creating a Review Card if there are reviews present and returning a "no reviews available statement if not".
     return (
         <div>
             {reviews.length > 0 ? (

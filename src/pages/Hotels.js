@@ -5,7 +5,7 @@ const Hotels = () => {
     return (
         <div>
             <h2>Hotel Reviews</h2>
-            <ReviewList category={"hotels"} />
+            <ReviewList category={"Hotel"} />
         </div>
     )
 }

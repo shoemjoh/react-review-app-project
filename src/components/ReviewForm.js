@@ -1,12 +1,12 @@
 import React from 'react'
 import { useState } from 'react'
 
-const ReviewForm = (addReview) => {
+const ReviewForm = ({ addReview }) => {
     const [formData, setFormData] = useState(
         {
             destination: '',
             name: '',
-            category: '',
+            category: 'Hotel',
             review: ''
         }
     )

@@ -5,7 +5,7 @@ const Restaurants = () => {
     return (
         <div>
             <h2>Restaurant Reviews</h2>
-            <ReviewList category={"restaurants"} />
+            <ReviewList category={"Restaurant"} />
         </div>
     )
 }
