@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ReviewList from '../components/ReviewList'
-import { useEffect } from 'react'
 
 const Destinations = () => {
 
     useEffect(() => {
-        console.log('Use Effect hook working')
+        fetch('http://localhost:4000/reviews').
+            then(res => res.json()).
+            then(data => console.log("Fetch working"))
     }, [])
 
     // Render a page with a list of Destinations that have been reviewed.
