@@ -1,14 +1,19 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const DestinationTiles = ({ destinations }) => {
-
-    // Component that is a tile listing a unique destination in the database. Once clicked it takes you to the DestinationPage where you can see the reviews for a destination. 
-
     return (
         <div className='destination-tiles'>
-            <h3>{destinations}</h3>
+            {destinations.map((destination, index) => (
+                <div key={index} className="destination-tile">
+                    {/* Link to the destination page */}
+                    <Link to={`/destinations/${destination}`}>
+                        <h3>{destination}</h3>
+                    </Link>
+                </div>
+            ))}
         </div>
-    )
-}
+    );
+};
 
-export default DestinationTiles
+export default DestinationTiles;
