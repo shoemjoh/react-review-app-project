@@ -79,3 +79,74 @@
   color: #61dafb;
   /* Optional hover effect */
 }
+
+/* Form container styling to center the form */
+.form-container {
+  display: flex;
+  justify-content: center;
+  /* Horizontally center the form */
+  align-items: center;
+  /* Vertically center (optional depending on layout) */
+  min-height: 50vh;
+  /* Take up full viewport height (optional) */
+  padding: 10px;
+  background-color: #f4f4f4;
+  /* Optional background color */
+}
+
+/* Styling the form */
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  /* Optional shadow for a card-like effect */
+  width: 400px;
+  /* Adjust the width of the form */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /* Evenly space form elements */
+}
+
+/* Label and input field styling */
+label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  /* Full width input fields */
+}
+
+/* Special styling for the textarea to provide more room for writing */
+textarea {
+  height: 100px;
+  /* Give more room for the review section */
+  resize: vertical;
+  /* Allow user to resize vertically */
+}
+
+/* Button styling */
+button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #030303;
+}
