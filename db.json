@@ -15,11 +15,18 @@
       "review": "Amazing restaurant"
     },
     {
-      "id": "02a4",
-      "destination": "Cape Town",
-      "name": "Test Hotel",
+      "id": "2482",
+      "destination": "Paris",
+      "name": "St. James",
       "category": "Hotel",
-      "review": "Test"
+      "review": "Old world hotel tucked away in a less traveled part of the city, near the Arc de Triomphe."
+    },
+    {
+      "id": "710f",
+      "destination": "Paris",
+      "name": "Benoit",
+      "category": "Restaurant",
+      "review": "Michelin star establishment in the 16th arrondismont, great escargot."
     }
   ]
 }

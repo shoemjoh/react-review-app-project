@@ -43,14 +43,21 @@
   background-color: black;
   color: white;
   display: flex;
-  justify-content: center;
-  /* Center-align the navbar content */
+  justify-content: space-between;
+  width: 100%;
   align-items: center;
   padding: 20px;
   font-family: 'Roboto', sans-serif;
   /* Thinner, cooler font */
   font-size: 18px;
   font-weight: 300;
+}
+
+.nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* Centers the nav links perfectly */
 }
 
 /* Styling for the unordered list (ul) to remove bullet points and align items horizontally */
@@ -149,4 +156,16 @@ button {
 
 button:hover {
   background-color: #030303;
+}
+
+.company-name h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.company-name {
+  flex-grow: 1;
+  /* Push the company name to the far left */
 }
