@@ -6,6 +6,20 @@
       "name": "Belmond Mount Nelson",
       "category": "Hotel",
       "review": "Beautiful hotel nestled in the center of Cape Town. Fantastic lobby bar for a late night cocktail or smoke with patrons from all over the world. Beautiful rooms with small balconies overlooking the luxurious pool or mountain ranges."
+    },
+    {
+      "id": "703a",
+      "destination": "Cape Town",
+      "name": "Test Restaurant",
+      "category": "Restaurant",
+      "review": "Amazing restaurant"
+    },
+    {
+      "id": "02a4",
+      "destination": "Cape Town",
+      "name": "Test Hotel",
+      "category": "Hotel",
+      "review": "Test"
     }
   ]
 }

@@ -13,7 +13,7 @@ const DestinationPage = () => {
             <h3> Hotels </h3>
             <ReviewList category="Hotel" destination={destination} />
             <h3> Restaurants </h3>
-            <ReviewList category="Restuarant" destination={destination} />
+            <ReviewList category="Restaurant" destination={destination} />
         </div >
     )
 }
