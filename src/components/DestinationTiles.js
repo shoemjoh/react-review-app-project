@@ -1,9 +1,10 @@
 import React from 'react'
 
-const DestinationTiles = ({ destination }) => {
+const DestinationTiles = ({ destinations }) => {
+
     return (
-        <div className='destinationTile'>
-            Destination Tile Placeholder
+        <div className='destination-tiles'>
+            <h3>{destinations}</h3>
         </div>
     )
 }
