@@ -1,46 +1,11 @@
 {
   "reviews": [
     {
-      "id": "e15d",
-      "destination": "Paris",
-      "name": "The Ritz",
-      "category": "",
-      "review": "Beautiful hotel"
-    },
-    {
-      "id": "03c3",
-      "destination": "Paris",
-      "name": "Ali",
-      "category": "",
-      "review": "kl"
-    },
-    {
-      "id": "7034",
-      "destination": "London",
-      "name": "The Kensington",
-      "category": "",
-      "review": "Lovely hotel"
-    },
-    {
-      "id": "232f",
-      "destination": "London",
-      "name": "The Kensington",
-      "category": "",
-      "review": "Lovely hotel"
-    },
-    {
-      "id": "13d4",
-      "destination": "Test",
-      "name": "Testa",
+      "id": "f098",
+      "destination": "Cape Town",
+      "name": "Belmond Mount Nelson",
       "category": "Hotel",
-      "review": "Test"
-    },
-    {
-      "id": "1882",
-      "destination": "testc",
-      "name": "tesc",
-      "category": "Restaurant",
-      "review": "tesc"
+      "review": "Beautiful hotel nestled in the center of Cape Town. Fantastic lobby bar for a late night cocktail or smoke with patrons from all over the world. Beautiful rooms with small balconies overlooking the luxurious pool or mountain ranges."
     }
   ]
 }
