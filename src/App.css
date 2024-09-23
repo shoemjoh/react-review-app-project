@@ -37,3 +37,45 @@
     transform: rotate(360deg);
   }
 }
+
+/* Navbar container styling */
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  /* Center-align the navbar content */
+  align-items: center;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  /* Thinner, cooler font */
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* Styling for the unordered list (ul) to remove bullet points and align items horizontally */
+.navbar ul {
+  list-style-type: none;
+  /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* Align items horizontally */
+}
+
+/* Styling for list items (li) */
+.navbar li {
+  margin: 0 20px;
+  /* Space between each navbar item */
+}
+
+/* Styling for the links */
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #61dafb;
+  /* Optional hover effect */
+}
