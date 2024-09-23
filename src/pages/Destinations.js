@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import ReviewList from '../components/ReviewList'
+import DestinationTiles from '../components/DestinationTiles';
 
 const Destinations = () => {
     const [destinations, setDestinations] = useState([]);
@@ -20,7 +21,8 @@ const Destinations = () => {
 
     return (
         <div>
-            Placeholder text
+            <h2>Destinations</h2>
+            <DestinationTiles destinations={destinations} />
         </div>
     )
 }
