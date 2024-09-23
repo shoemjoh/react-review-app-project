@@ -1,8 +1,8 @@
 import React from 'react'
 
-const DestinationTiles = () => {
+const DestinationTiles = ({ destination }) => {
     return (
-        <div>
+        <div className='destinationTile'>
             Destination Tile Placeholder
         </div>
     )

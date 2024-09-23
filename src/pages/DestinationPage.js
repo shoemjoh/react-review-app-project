@@ -1,5 +1,9 @@
 import React from 'react'
+import ReviewList from '../components/ReviewList';
 import { useParams } from 'react-router-dom';
+
+
+// Page for a specific destination once clicked.
 
 const DestinationPage = () => {
     const { destination } = useParams();
