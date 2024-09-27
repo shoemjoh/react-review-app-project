@@ -1,3 +1,32 @@
+React Review Application
+This is a simple review application built with React. It allows users to submit reviews for hotels and restaurants at various destinations and view existing reviews. The app uses React Router for navigation and React's hooks like useState and useEffect for state management and data fetching.
+
+Features
+Submit Reviews: Users can fill out a form to submit a review for either a hotel or a restaurant.
+
+Dynamic Routing: Navigate between pages like Home, Destinations, Hotels, and Restaurants without refreshing the page.
+
+Filter by Destination: View all reviews for a specific destination by clicking on the destination tile.
+
+Filter by Category: View hotel or restaurant reviews on dedicated pages.
+
+Technologies Used
+React: Frontend JavaScript library for building the user interface.
+React Router: Handles routing and navigation between pages.
+AJAX (via Fetch API): To submit and retrieve reviews from the server without refreshing the page.
+CSS: For styling the layout and components.
+
+Installation and Setup
+Clone the application from github using: git@github.com:shoemjoh/react-review-app-project.git
+
+Run "npm install" to make sure you have the proper packages in your terminal.
+
+Run "npm start" to start the application.
+
+The app will be running at http://localhost:4000 in your browser.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

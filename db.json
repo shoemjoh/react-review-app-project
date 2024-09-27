@@ -27,6 +27,20 @@
       "name": "Benoit",
       "category": "Restaurant",
       "review": "Michelin star establishment in the 16th arrondismont, great escargot."
+    },
+    {
+      "id": "1f75",
+      "destination": "Paris",
+      "name": "Test Hotel 2",
+      "category": "Hotel",
+      "review": "Great Hotel"
+    },
+    {
+      "id": "844c",
+      "destination": "Paris",
+      "name": "Test Hotel",
+      "category": "Hotel",
+      "review": "Great Hotel"
     }
   ]
 }
